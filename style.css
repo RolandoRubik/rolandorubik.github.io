@@ -36,7 +36,7 @@ position: absolute;
 content: "";
 bottom: -80px;
 right: -100px;
-height: 270px;
+height: 100px;
 width: 80px;
 background: rgb(182,135,53);
 transform: rotate(-25deg);
