@@ -1,1 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@650&display=swap');
 
+@media screen and (min-width: 570px) {
+    .contact-us {
+        width: 50px;
+    }
+
+    .contact-us:before {
+        width: 50px;
+
+    }
+
+    .contact-us:after {
+        width: 50px;
+        }
+    
+    form {
+        width: 250px;
+    }
+}
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.titulo{
+    font-family: "Dancing Script", sans-serif;
+}
+
+/* Pretty Stuff */
+.contact-form-container {
+background: rgb(255, 255, 255);
+font-family: "Dancing Script", sans-serif;
+}
+.contact-us {
+position: relative;
+width: 250px;
+background: rgb(238,197,107);
+overflow: hidden;
+}
+.contact-us:before {
+position: absolute;
+content: "";
+bottom: -50px;
+left: -100px;
+height: 250px;
+width: 400px;
+background: rgb(250,239,177);
+transform: rotate(25deg);
+}
+.contact-us:after {
+position: absolute;
+content: "";
+bottom: -80px;
+right: -100px;
+height: 270px;
+width: 400px;
+background: rgb(182,135,53);
+transform: rotate(-25deg);
+}
+.contact-header {
+color: white;
+position: absolute;
+transform: rotate(-90deg);
+top: 120px;
+left: -40px;
+}
+.contact-header h1 {
+font-size: 1.5rem;
+}
+
+.header {
+text-align: center;
+padding: 20px 0;
+color: rgb(100, 80, 38);
+}
+.header h1 {
+font-weight: normal;
+}
+.header h2 {
+margin-top: 10px;
+font-weight: 300;
+}
+.address, .email, .phone , .hora{
+text-align: center;
+padding: 20px 0;
+color: rgb(187,146,66);
+}
+.address h3, .email h3, .phone h3, .hora h3 {
+font-size: 1rem;
+font-weight: 300;
+}
+.address i, .email i, .phone i, .hora i{
+color: rgb(242, 193, 101);
+font-size: 1.7rem;
+margin-bottom: 20px;
+}
+form {
+position: relative;
+width: 440px;
+margin: 0 auto;
+padding: 20px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+background: white;
+font-family: "Dancing Script", sans-serif;
+}
+form input, form textarea {
+background: white;
+display: block;
+margin: 20px auto;
+width: 100%;
+border: 0;
+font-family: "Dancing Script", sans-serif;
+}
+form input {
+height: 40px;
+line-height: 40px;
+outline: 0;
+border-bottom: 1px solid rgba(68, 68, 68, 0.3);
+font-size: 1rem;
+color: rgba(68, 68, 68, 0.8);
+}
+form textarea {
+border-bottom: 1px solid rgba(68, 68, 68, 0.3);
+resize: none;
+outline: none;
+font-size: 1rem;
+font-family: "Dancing Script", sans-serif;
+color: rgba(68, 68, 68, 0.8);
+}
+form button {
+position: absolute;
+display: block;
+height: 40px;
+width: 250px;
+left: 95px;
+border: 0;
+border-radius: 20px;
+bottom: -20px;
+background: rgb(242, 193, 101);
+color: white;
+font-family: "Dancing Script", sans-serif;
+font-size: 1.1rem;
+font-weight: 300;
+outline: none;
+}
+.contact-form {
+padding-bottom: 40px;
+}
+/* Layout Stuff */
+body {
+background: url("./fondo2.jpg");
+height: 100vh;
+width: 100vw;
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;
+display: grid;
+justify-items: center;
+align-items: center;
+}
+.contact-form-container {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 2fr;
+    grid-template-areas: "header header " "address email" "phone hora" "contact-form contact-form";
+  }
+  
+.contact-us {
+grid-area: contact-us;
+}
+.header {
+grid-area: header;
+}
+.address {
+grid-area: address;
+}
+.phone {
+grid-area: phone;
+}
+.email {
+grid-area: email;
+}
+.contact-form {
+grid-area: contact-form;
+}
+.hora{
+    grid-area: hora;
+}
