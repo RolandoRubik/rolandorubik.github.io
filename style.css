@@ -163,7 +163,7 @@ align-items: center;
 }
 
 .contact-form-container {
-    width: 600px;
+    width: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr 0.5fr 2fr;
