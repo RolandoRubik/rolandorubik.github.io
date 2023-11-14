@@ -17,7 +17,7 @@ font-family: "Dancing Script", sans-serif;
 }
 .contact-us {
 position: relative;
-width: 150px;
+width: 80px;
 background: rgb(238,197,107);
 overflow: hidden;
 }
@@ -27,7 +27,7 @@ content: "";
 bottom: -50px;
 left: -100px;
 height: 150px;
-width: 400px;
+width: 80px;
 background: rgb(250,239,177);
 transform: rotate(25deg);
 }
@@ -37,7 +37,7 @@ content: "";
 bottom: -80px;
 right: -100px;
 height: 270px;
-width: 150px;
+width: 80px;
 background: rgb(182,135,53);
 transform: rotate(-25deg);
 }
@@ -45,7 +45,7 @@ transform: rotate(-25deg);
 color: white;
 position: absolute;
 transform: rotate(-90deg);
-top: 120px;
+top: 80px;
 left: -40px;
 }
 .contact-header h1 {
@@ -99,7 +99,7 @@ margin-bottom: 20px;
 }
 form {
 position: relative;
-width: 440px;
+width: 300px;
 margin: 0 auto;
 padding: 20px;
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -163,7 +163,7 @@ align-items: center;
 }
 
 .contact-form-container {
-    width: 400px;
+    width: 750px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr 0.5fr 2fr;
