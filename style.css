@@ -10,6 +10,10 @@ box-sizing: border-box;
     font-family: "Dancing Script", sans-serif;
 }
 
+.contact-form-container{
+    width: 70%
+}
+
 /* Pretty Stuff */
 .contact-form-container {
 background: #F4F3F3;
