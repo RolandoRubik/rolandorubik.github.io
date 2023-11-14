@@ -185,13 +185,15 @@ display: grid;
 justify-items: center;
 align-items: center;
 }
+
 .contact-form-container {
     width: 800px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr 0.5fr 2fr;
-    grid-template-areas: "contact-us header header " "contact-us address email" "contact-us phone hora" "contact-us contact-form contact-form";
+    grid-template-areas: "header header " "address email" "phone hora" "contact-form contact-form";
   }
+  
   
 .contact-us {
 grid-area: contact-us;
