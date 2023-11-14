@@ -27,7 +27,7 @@ content: "";
 bottom: -50px;
 left: -100px;
 height: 400px;
-width: 80px;
+width: 400px;
 background: rgb(250,239,177);
 transform: rotate(25deg);
 }
