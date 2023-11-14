@@ -3,16 +3,16 @@
 
 @media screen and (min-width: 570px) {
     .contact-us {
-        width: 50px;
+        width: 10px;
     }
 
     .contact-us:before {
-        width: 50px;
+        width: 10px;
 
     }
 
     .contact-us:after {
-        width: 50px;
+        width: 10px;
         }
     
     form {
